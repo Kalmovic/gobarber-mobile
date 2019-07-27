@@ -38,7 +38,7 @@ export default function SignUp({ navigation }) {
             secureTextEntry
             placeholder="Password"
           />
-          <SubmitButton onPress={() => {}}>Log in</SubmitButton>
+          <SubmitButton onPress={() => {}}>Register</SubmitButton>
         </Form>
         <SignLink onPress={() => navigation.navigate('SignIn')}>
           <SignLinkText>Already registered</SignLinkText>
