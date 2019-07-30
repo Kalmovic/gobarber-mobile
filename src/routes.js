@@ -33,7 +33,6 @@ export default (isSigned = false) =>
                   Confirm,
                 },
                 {
-                  resetOnBlur: true,
                   defaultNavigationOptions: {
                     titleContainerStyle: 'center',
                     headerTransparent: true,
@@ -59,6 +58,7 @@ export default (isSigned = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#fff',
