@@ -35,6 +35,7 @@ function Dashboard({ isFocused }) {
           : appointment
       )
     );
+    loadAppointments();
   }
 
   return (
